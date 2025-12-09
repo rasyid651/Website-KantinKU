@@ -1,0 +1,242 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff7e6;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #ffb3005a;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 100px;
+}
+
+.judul-header {
+  color: #1d1d1d;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+nav {
+  display: flex;
+  gap: 62px;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.container-a {
+  display: flex;
+  align-items: center;
+  gap: 74px;
+}
+
+.container-a a {
+  color: #1d1d1d;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container-a a:hover {
+  color: #1d1d1d;
+  text-decoration: underline;
+}
+
+.btn-nav {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.btn-login {
+  color: #5a3e2b;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 32px;
+}
+
+.btn-registrasi {
+  color: #5a3e2b;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 32px;
+  border: 2px solid #5a3e2b;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* login user */
+.dropdown-profile {
+  width: max-content;
+}
+
+.dropdown-profile .btn-profile {
+  width: 100%;
+  color: #f4f4f4;
+  background-color: #5a3e2b;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.dropdown-profile ul {
+  margin-top: 2px;
+  position: absolute;
+  width: 200px;
+  background-color: #5a3e2b90;
+  list-style: none;
+  text-align: left;
+  border-radius: px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.dropdown-profile .btn-profile:hover ~ ul,
+ul:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.role,
+.logout {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  color: #f4f4f4;
+  background-color: transparent;
+}
+
+.logout a {
+  color: inherit; /* 👈 ini kunci: agar <a> mewarisi warna dari parent */
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.role:hover,
+.logout:hover {
+  background-color: #f4f4f4;
+  color: #5a3e2b;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* Opsional: tambahkan hover juga pada <a> langsung (untuk keamanan) */
+.logout a:hover {
+  color: #5a3e2b;
+  text-decoration: none;
+}
+
+/* login user selesai */
+
+main {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  padding: 18px 100px;
+}
+
+/*table*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+  background: #fff7e6;
+}
+
+table th {
+  background: #ffb300;
+  color: #1d1d1d;
+  font-weight: 600;
+  padding: 14px;
+  text-align: center;
+  border-bottom: 2px solid #d4a000;
+}
+
+table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  color: #1d1d1d;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+table tr {
+  background: #fff0d0;
+}
+
+table tr:hover {
+  background: #ffe2a3;
+  transition: 0.2s;
+}
+
+/* tombol aksi di dalam tabel */
+table td a {
+  text-decoration: none;
+  background: #5a3e2b;
+  color: #f4f4f4;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+table td a:hover {
+  background: #7b533c;
+}
+
+
+/* table selesai*/

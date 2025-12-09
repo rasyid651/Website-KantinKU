@@ -1,0 +1,706 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff7e6;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #ffb3005a;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 100px;
+}
+
+.judul-header {
+  color: #1d1d1d;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+nav {
+  display: flex;
+  gap: 62px;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.container-a {
+  display: flex;
+  align-items: center;
+  gap: 74px;
+}
+
+.container-a a {
+  color: #1d1d1d;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container-a a:hover {
+  color: #1d1d1d;
+  text-decoration: underline;
+}
+
+.btn-nav {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.btn-login {
+  color: #5a3e2b;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 32px;
+}
+
+.btn-registrasi {
+  color: #5a3e2b;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 32px;
+  border: 2px solid #5a3e2b;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* login user */
+.dropdown-profile {
+  width: max-content;
+}
+
+.dropdown-profile .btn-profile {
+  width: 100%;
+  color: #f4f4f4;
+  background-color: #5a3e2b;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.dropdown-profile ul {
+  margin-top: 2px;
+  position: absolute;
+  width: 200px;
+  background-color: #5a3e2b90;
+  list-style: none;
+  text-align: left;
+  border-radius: px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.dropdown-profile .btn-profile:hover ~ ul, ul:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.role,
+.logout {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  color: #f4f4f4;
+  background-color: transparent;
+}
+
+.logout a {
+  color: inherit; /* 👈 ini kunci: agar <a> mewarisi warna dari parent */
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.role:hover,
+.logout:hover {
+  background-color: #f4f4f4;
+  color: #5a3e2b;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* Opsional: tambahkan hover juga pada <a> langsung (untuk keamanan) */
+.logout a:hover {
+  color: #5a3e2b;
+  text-decoration: none;
+}
+
+/* login user selesai */
+
+main {
+  margin-top: 120px;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+}
+
+.container-content1 {
+  background-image: url("../../img/bg.jpeg");
+  width: 1292px;
+  height: 655px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* bagian gambar produk */
+.container-product {
+  position: relative;
+  width: 700px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/*@keyframes appear {
+  from {
+      opacity: 0;
+      scale: 0.5;
+  }
+  to {
+      opacity: 1;
+      scale: 1;
+  }
+}
+
+.container-product img {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
+}
+*/
+.container-product img {
+  position: absolute;
+  z-index: 1;
+}
+
+/* kiri */
+.img-product1 {
+  left: -34px;
+  width: 260px;
+  height: 320px;
+  transform: rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+  -ms-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  object-fit: cover;
+}
+
+/* tengah */
+.img-product2 {
+  width: 260px;
+  height: 320px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  object-fit: cover;
+  z-index: 2;
+}
+
+/* kanan */
+.img-product3 {
+  right: -34px;
+  width: 260px;
+  height: 320px;
+  transform: rotate(12deg);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  object-fit: cover;
+}
+/* bagian gambar produk selesai*/
+
+/* bagian surface/card content-1 */
+.container-surface1 {
+  background: #f4f4f481;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 18px 34px;
+  gap: 18px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin-top: -80px;
+  z-index: 10;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.container-judul {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.judul-surface1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.garis {
+  background: #1d1d1d;
+  opacity: 65%;
+  width: 188px;
+  height: 4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.deskripsi-surface1 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn-content1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 28px;
+}
+
+.btn-content1 a {
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #ffb300;
+  color: #1d1d1d;
+  padding: 22px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.btn-secondry {
+  color: #5a3e2b;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid #5a3e2b;
+  padding: 22px 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* bagian surface/card content-1 selesai*/
+
+/* menu product */
+.container-menu-product {
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.text-menu-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.judul-menu-product {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.deskripsi-menu-product {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container-card-product {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 46px;
+}
+
+/*card product*/
+
+.card-product1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.product-img {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+.img-card {
+  width: 100%;
+  height: 268px;
+  object-fit: cover;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.label-product {
+  background: #fb8c00;
+  color: #fff7e6;
+  padding: 10px 20px;
+  justify-items: center;
+  border-radius: 8px 0px 0px 0px;
+  -webkit-border-radius: 8px 0px 0px 0px;
+  -moz-border-radius: 8px 0px 0px 0px;
+  -ms-border-radius: 8px 0px 0px 0px;
+  -o-border-radius: 8px 0px 0px 0px;
+}
+
+.label-product p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.container-deksripsi {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.text-deksripsi {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.text-deksripsi .name-product {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.text-deksripsi .price-product {
+  color: #5a3e2b;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.container-status {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.container-status .status-habis {
+  background: #ff0000;
+  width: 18px;
+  height: 18px;
+  border-radius: 99px;
+  -webkit-border-radius: 99px;
+  -moz-border-radius: 99px;
+  -ms-border-radius: 99px;
+  -o-border-radius: 99px;
+}
+
+.container-status .status-tersedia {
+  background: #00bc7d;
+  width: 18px;
+  height: 18px;
+  border-radius: 99px;
+  -webkit-border-radius: 99px;
+  -moz-border-radius: 99px;
+  -ms-border-radius: 99px;
+  -o-border-radius: 99px;
+}
+
+.container-status p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn-pesan {
+  color: #f4f4f4;
+  text-decoration: none;
+  background: #5a3e2b;
+  /* width: 100%; */
+  padding: 16px 108px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.btn-pesan p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-pesan:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 20px 0 rgba(68, 68, 68, 0.1);
+}
+
+/*card product selesai*/
+
+/* menu product selesai */
+
+/* layanan */
+.container-layanan {
+  margin-top: 204px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.text-layanan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.text-layanan .judul-layanan {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.container-layanan .deskripsi-layanan {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* card layanan */
+.box-layanan {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 44px;
+}
+
+/* card 1 */
+.card-layanan {
+  background: #5a3e2bbd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 38px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.card-layanan p {
+  color: #f4f4f4;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container-waktu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container-waktu li {
+  color: #f4f4f4;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* card 1 selesai*/
+
+/* card layanan selesai */
+
+/* layanan selesai*/
+
+.container-tentang {
+  margin: 204px 0px 120px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 18px 100px;
+}
+
+.judul-tentang {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.deskripsi-tentang {
+  width: 902px;
+  line-height: 1.6;
+}
+
+.deskripsi-tentang p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* footer */
+footer {
+  background: #ffb300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 570px;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.content-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.content-footer p {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.sosmed-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 44px;
+}
+
+.icon-wa,
+.icon-ig {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon-wa p,
+.icon-ig p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.garis-footer {
+  background: #1d1d1d;
+  width: 300px;
+  height: 2px;
+}
+
+.teks-footer {
+  font-size: 18px;
+  font-weight: 500;
+}
+/* footer selesai*/

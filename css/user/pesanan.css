@@ -1,0 +1,115 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff7e6;
+  scroll-behavior: smooth;
+}
+
+main {
+  margin-top: 32px; /* dari 40px → 32px */
+  padding: 16px 80px; /* dari 20px 100px → 16px 80px */
+}
+
+.container-arrow svg:hover {
+  cursor: pointer;
+}
+
+.container-arrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #1e1e1e;
+  text-decoration: none;
+  font-size: 18px; /* dari 20px → 18px */
+  font-weight: 600;
+  gap: 8px;
+}
+
+.box-container {
+  margin-top: 32px; /* dari 40px → 32px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-pesanan {
+  background: #ffb3003e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 20px; /* dari 54px 24px → 48px 20px */
+  border-radius: 12px;
+  gap: 24px; /* dari 28px → 24px */
+}
+
+.judul-pesanan {
+  font-size: 20px; /* dari 22px → 20px */
+  font-weight: 600;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px; /* dari 38px → 32px */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* dari 24px → 20px */
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 14px 160px 14px 20px; /* dari 16px 182px... → 14px 160px... */
+  border: none;
+  color: #00000061;
+  font-size: 14px;
+  font-weight: 500;
+  background: none;
+  border: 1.5px solid #1e1e1e;
+  border-radius: 8px;
+}
+
+select {
+  color: #1e1e1e;
+}
+
+select option {
+  background: #ffb30093;
+  color: #1e1e1e;
+}
+
+.jam_ambil {
+  padding: 14px 20px; /* dari 16px 22px → 14px 20px */
+}
+
+.btn-konfirmasi {
+  width: 100%;
+  background: #ffb300;
+  color: #1e1e1e;
+  border: none;
+  padding: 12px; /* dari 14px → 12px */
+  border-radius: 8px;
+  font-size: 16px; /* dari 18px → 16px */
+  font-weight: 500;
+}
+
+.btn-konfirmasi:hover {
+  cursor: pointer;
+}
+
+.btn-daftar:hover {
+  cursor: pointer;
+}
