@@ -40,12 +40,16 @@ Admin juga dapat mengelola data pesanan dengan lebih mudah dan rapi.
 
 ## 📂 Struktur Folder
 
-    /asset
     /css
-    /js
-    /admin
-    /user
-    /database
+    /img
+    admin.php
+    cancel.php
+    index.php
+    koneksi.php
+    login.php
+    pesanan.php
+    registrasi.php
+    user.php
 
 ## 👨‍💻 Author
 
