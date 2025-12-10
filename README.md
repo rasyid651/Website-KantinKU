@@ -16,17 +16,13 @@ Admin juga dapat mengelola data pesanan dengan lebih mudah dan rapi.
 
 -   Melihat daftar menu makanan.
 -   Melakukan pemesanan makanan melalui form.
--   Mendapatkan notifikasi berhasil memesan.
--   Melihat daftar pesanan di halaman keranjang.
--   Mendapatkan kode QR untuk verifikasi pengambilan pesanan.
+-   Mendapatkan notifikasi berhasil memesan di form pemesanan.
 
 ### 🛠 Admin
 
 -   Login sebagai admin.
 -   Melihat seluruh daftar pesanan siswa.
--   Mengubah status pesanan (pending, diproses, selesai).
--   Menghapus atau mengedit data pesanan.
--   Memvalidasi pesanan berdasarkan QR.
+-   Menghapus data pesanan.
 
 ### ⚙ Sistem
 
@@ -42,7 +38,7 @@ Admin juga dapat mengelola data pesanan dengan lebih mudah dan rapi.
 -   PHP (Native)
 -   MySQL (phpMyAdmin)
 
-## 📂 Struktur Folder (Opsional)
+## 📂 Struktur Folder
 
     /asset
     /css
