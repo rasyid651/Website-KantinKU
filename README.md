@@ -31,6 +31,11 @@ Admin juga dapat mengelola data pesanan dengan lebih mudah dan rapi.
 -   Session login user dan admin.
 -   Struktur database sederhana dan mudah dipahami.
 
+## 📱 Responsivitas
+
+Saat ini website belum responsif untuk mobile.
+Responsivitas menjadi fokus pengembangan berikutnya agar website nyaman digunakan pada berbagai ukuran layar, terutama smartphone siswa.
+
 ## 🌐 Bahasa yang Digunakan
 
 -   HTML
