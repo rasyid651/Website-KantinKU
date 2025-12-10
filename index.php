@@ -58,7 +58,7 @@ include 'koneksi.php';
                         </div>
                         <div class="btn-content1">
                             <a href="" class="btn-primary">Lihat Menu Hari Ini</a>
-                            <div class="container-secodry" >
+                            <div class="container-secodry">
                                 <a href="login.php" class="btn-secondry" id="produk">Login Dulu
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#5a3e2b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right">
                                         <path d="M18 8L22 12L18 16" />
@@ -80,21 +80,21 @@ include 'koneksi.php';
                 <p class="deskripsi-menu-product">Kantinku menyediakan berbagai menu yang enak dan bikin nagih!
             </div>
             <div class="container-card-product">
-                
+
                 <!-- card 1 -->
                 <div class="card-product1">
                     <img src="./img/mie_goreng.jpg" class="img-card" alt="img-card">
                     <div class="product-img">
-                     <div class="label-product">
-                        <p>Makanan</p>
-                    </div> 
+                        <div class="label-product">
+                            <p>Makanan</p>
+                        </div>
                     </div>
                     <div class="container-deksripsi">
                         <div class="text-deksripsi">
                             <p class="name-product">Mie Goreng</p>
                             <p class="price-product">Rp5.000</p>
                             <div class="container-status">
-                                <div class="status-tersedia"></div>    
+                                <div class="status-tersedia"></div>
                                 <p>Tersedia</p>
                             </div>
                         </div>
@@ -104,14 +104,14 @@ include 'koneksi.php';
                     </div>
                 </div>
                 <!-- card 1 selesai -->
-             
+
                 <!-- card 2 -->
                 <div class="card-product1">
                     <img src="./img/ayam_geprek.jpg" class="img-card" alt="img-card">
                     <div class="product-img">
-                     <div class="label-product">
-                        <p>Makanan</p>
-                    </div> 
+                        <div class="label-product">
+                            <p>Makanan</p>
+                        </div>
                     </div>
                     <div class="container-deksripsi">
                         <div class="text-deksripsi">
@@ -123,7 +123,7 @@ include 'koneksi.php';
                                 <p>Tersedia</p>
                             </div>
                         </div>
-                          <a href="login.php" class="btn-pesan">
+                        <a href="login.php" class="btn-pesan">
                             <p>Pesan</p>
                         </a>
                     </div>
@@ -134,20 +134,20 @@ include 'koneksi.php';
                 <div class="card-product1">
                     <img src="./img/es_teh.png" class="img-card" alt="img-card">
                     <div class="product-img">
-                     <div class="label-product">
-                        <p>Minuman</p>
-                    </div> 
+                        <div class="label-product">
+                            <p>Minuman</p>
+                        </div>
                     </div>
                     <div class="container-deksripsi">
                         <div class="text-deksripsi">
                             <p class="name-product">Es Teh</p>
                             <p class="price-product">Rp3.000</p>
                             <div class="container-status">
-                                <div class="status-tersedia"></div>    
+                                <div class="status-tersedia"></div>
                                 <p>Tersedia</p>
                             </div>
                         </div>
-                       <a href="login.php" class="btn-pesan">
+                        <a href="login.php" class="btn-pesan">
                             <p>Pesan</p>
                         </a>
                     </div>
@@ -158,9 +158,9 @@ include 'koneksi.php';
                 <div class="card-product1">
                     <img src="./img/nasi_kuning.png" class="img-card" alt="img-card">
                     <div class="product-img">
-                     <div class="label-product">
-                        <p>Makanan</p>
-                    </div> 
+                        <div class="label-product">
+                            <p>Makanan</p>
+                        </div>
                     </div>
                     <div class="container-deksripsi">
                         <div class="text-deksripsi">
@@ -168,7 +168,7 @@ include 'koneksi.php';
                             <p class="price-product">Rp6.000</p>
                             <div class="container-status">
                                 <!-- <div class="status-habis"></div> -->
-                                 <div class="status-tersedia"></div>
+                                <div class="status-tersedia"></div>
                                 <p>Tersedia</p>
                             </div>
                         </div>
@@ -188,40 +188,40 @@ include 'koneksi.php';
                 <p class="deskripsi-layanan">Berikut Jam Operasional KantinKU, biar kamu engga kehabisan jajan!</p>
             </div>
             <div class="box-layanan">
-                
-            <!-- card 1 -->
+
+                <!-- card 1 -->
                 <!-- hari pelayanan -->
-                    <div class="card-layanan">
-                        <p class="hari-layanan">Senin - Jumat</p>
-                        <ul class="container-waktu">
-                            <li>Istirahat Pertama: 09.30 - 10.00</li>
-                            <li>Istirahat Kedua: 11.30 - 13.00</li>
-                        </ul>
-                    </div>
-                    <!-- hari pelayanan selesai -->
-            <!-- card 1 selesai -->
-                    
+                <div class="card-layanan">
+                    <p class="hari-layanan">Senin - Jumat</p>
+                    <ul class="container-waktu">
+                        <li>Istirahat Pertama: 09.30 - 10.00</li>
+                        <li>Istirahat Kedua: 11.30 - 13.00</li>
+                    </ul>
+                </div>
+                <!-- hari pelayanan selesai -->
+                <!-- card 1 selesai -->
+
                 <!-- card 2 -->
-                    <!-- pre order  -->
-                    <div class="card-layanan" id="tentang">
-                        <p>Pre - Order</p>
-                        <ul class="container-waktu">
-                            <li>Buka - Tutup: 06.30 - 12.30</li>
-                            <li>Pengambilan: 09.30 - 12.20</li>
-                        </ul>
-                    </div>
-                    <!-- pre order selesai -->
+                <!-- pre order  -->
+                <div class="card-layanan" id="tentang">
+                    <p>Pre - Order</p>
+                    <ul class="container-waktu">
+                        <li>Buka - Tutup: 06.30 - 12.30</li>
+                        <li>Pengambilan: 09.30 - 12.20</li>
+                    </ul>
+                </div>
+                <!-- pre order selesai -->
                 <!-- card 2 selesai-->
             </div>
         </section>
 
         <section class="container-tentang">
-                <p class="judul-tentang">Tentang</p>
-                <div class="deskripsi-tentang">
-                    <p>
-                        KantinKu dibuat untuk membantu siswa memesan makanan dengan cara yang lebih cepat dan nyaman. Sistem ini memungkinkan kamu memilih menu, menentukan jam pengambilan, lalu mengambil pesanan tanpa harus ikut antre panjang di kantin.
-                    </p>
-                </div>
+            <p class="judul-tentang">Tentang</p>
+            <div class="deskripsi-tentang">
+                <p>
+                    KantinKu dibuat untuk membantu siswa memesan makanan dengan cara yang lebih cepat dan nyaman. Sistem ini memungkinkan kamu memilih menu, menentukan jam pengambilan, lalu mengambil pesanan tanpa harus ikut antre panjang di kantin.
+                </p>
+            </div>
         </section>
 
     </main>
@@ -232,19 +232,26 @@ include 'koneksi.php';
                 <p>KantinKU</p>
                 <div class="sosmed-footer">
                     <div class="icon-wa">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle-icon lucide-message-circle"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle-icon lucide-message-circle">
+                            <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" />
+                        </svg>
                         <p>+62 878928329</p>
                     </div>
-                    <div class="icon-ig">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                    <a href="https://www.instagram.com/rasyid_ux/#" class="icon-ig" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                        </svg>
                         <p>rasyid_ux</p>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="garis-footer"></div>
             <p class="teks-footer">© 2025 KantinKU. All rights reserved.</p>
         </div>
     </footer>
+
 
 </body>
 

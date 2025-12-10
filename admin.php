@@ -89,6 +89,26 @@ if($_SESSION['role'] != "admin"){
 
     </main>
 
+       <footer>
+        <div class="container-footer">
+            <div class="content-footer">
+                <p>KantinKU</p>
+                <div class="sosmed-footer">
+                    <div class="icon-wa">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle-icon lucide-message-circle"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg>
+                        <p>+62 878928329</p>
+                    </div>
+                    <a href="https://www.instagram.com/rasyid_ux/#" class="icon-ig" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        <p>rasyid_ux</p>
+                    </a>
+                </div>
+            </div>
+            <div class="garis-footer"></div>
+            <p class="teks-footer">© 2025 KantinKU. All rights reserved.</p>
+        </div>
+    </footer>
+
 
 
 </body>
