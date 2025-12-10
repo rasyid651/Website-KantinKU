@@ -56,4 +56,5 @@ Admin juga dapat mengelola data pesanan dengan lebih mudah dan rapi.
 **Muhammad Al Rasyid** UIUX Designer & Front-End Developer Figma \|
 Visual Studio Code
 
-Email: rystostudio@gmail.com Instagram: @rasyid_ux
+-  Email: rystostudio@gmail.com 
+-  Instagram: @rasyid_ux
