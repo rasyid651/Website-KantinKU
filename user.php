@@ -18,6 +18,7 @@ if ($_SESSION['role'] != "user") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Kantin</title>
     <link rel="stylesheet" href="./css/user/index.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo.ico">
 </head>
 
 <body>

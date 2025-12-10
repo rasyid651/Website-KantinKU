@@ -12,6 +12,7 @@ include 'koneksi.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrasi</title>
     <link rel="stylesheet" href="./css/user/registrasi.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo.ico">
 </head>
 
 <body>
