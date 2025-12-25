@@ -58,7 +58,7 @@ Responsivitas menjadi fokus pengembangan berikutnya agar website nyaman digunaka
 
 ## 👨‍💻 Author
 
-**Muhammad Al Rasyid** UIUX Designer & Front-End Developer Figma \|
+**Muhammad Al Rasyid** UIUX Designer & Front-End Developer || Figma \|
 Visual Studio Code
 
 -  Email: rystostudio@gmail.com 
